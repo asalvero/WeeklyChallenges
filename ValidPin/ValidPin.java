@@ -27,7 +27,6 @@ public class ValidPin {
 
     public static boolean validate(String pin) {
         if(pin.length() ==4 || pin.length() == 6){
-            //check if numbers
             try{
                 Integer.parseInt(pin);
                 return true;
